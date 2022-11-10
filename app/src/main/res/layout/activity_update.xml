@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:text="Update Ruangan"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/judulruang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_500"
+            android:layout_below="@id/judul"
+            android:text="Nama Ruang" />
+
+        <EditText
+            android:id="@+id/namaruang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judulruang"
+            android:background="@drawable/rounded"
+            android:layout_marginTop="5dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/judulkapasitas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple_500"
+            android:layout_marginTop="16dp"
+            android:text="Kapasitas"
+            android:layout_below="@+id/namaruang"/>
+
+        <EditText
+            android:id="@+id/kapasitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/judulkapasitas"
+            android:background="@drawable/rounded"
+            android:layout_marginTop="5dp"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/kapasitas"/>
+    </RelativeLayout>
+
+</RelativeLayout>
