@@ -1,8 +1,8 @@
 # PBP03-CRUDSqlite
 
-## ANggota kelompok :
-• Muhammad Farhan Haris Rosidi  - 24060120140104 
-• Muhammad Fariz Aditya Pratama - 24060120140149 
-• Yusuf Qisthi Abdul Jabbar     - 24060120140134 
-• Rachmad Akbar Ramadan         - 24060120140137 
-• Rizal Zeri Subakti            - 24060120130062 
+## Anggota kelompok :
+1. Muhammad Farhan Haris Rosidi  - 24060120140104 
+2. Muhammad Fariz Aditya Pratama - 24060120140149 
+3. Yusuf Qisthi Abdul Jabbar     - 24060120140134 
+4. Rachmad Akbar Ramadan         - 24060120140137 
+5. Rizal Zeri Subakti            - 24060120130062 
